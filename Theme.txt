@@ -1,0 +1,5 @@
+Name: TECHbash 2012
+Author: .NET Valley
+Website: http://dotnetvalley.com
+Description: The general theme for TECHbash 2012
+Version: 2012.01.20
