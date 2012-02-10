@@ -1,0 +1,48 @@
+﻿body { background-color: #021523; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; font-size: 1em; line-height: 120%; color: white; margin: 0px; padding: 0px; }
+
+.event-announcement { background-color: #dd8e17; padding: 1px; text-align: center; margin: 10px 0 30px 0; }
+
+.frame { margin-left: auto; margin-right: auto; width: 960px; }
+	header { clear: both; position: relative; }
+		.header-left { width: 480px; height: 230px; float: left; }
+			.header-twitter-container { height: 84px; width: 450px; padding: 15px; }
+				.header-twitter-icon { width: 60px; margin: 23px 0 12px 50px; float: left; }
+				.header-twitter-tweets { background: url('img/blue-dot.png') repeat-y; margin: 5px 50px 5px 0px; padding: 5px 0px 5px 16px; float: right; width: 260px; height: 66px; font-size: .8em; color: #57afe8; }
+				.header-twitter-tweets a { color: #acc5d7; }
+		.header-right { width: 460px; float: right; }
+			.block { width: 90px; height: 90px; float: right; margin: 10px 0px 0px 10px; }
+			.block-on { width: 90px; height: 80px; float: right; margin: 10px 0px 0px 10px; padding: 5px 0 5px 0; cursor: pointer; background-color: #506d87; text-align: center; font-size: 0.8em; }
+			.block-on a { border: 0px; text-decoration: none; color: white; }
+
+	.frame-body { clear: both; margin-bottom: 30px; }
+		.right-column { width: 310px; float: right; }
+			.right-column .heading { height: 30px; font-weight: normal; padding: 5px; background-color: #06565b; } /* 10979f */
+			.right-column img { float: left; }
+			.right-column .header { float: left; padding: 5px; }
+			.right-column .blob { clear: both; background-color: #071b2a; padding: 5px; margin-bottom: 30px; } /* 113651 0a2c46 */
+		.left-column { width: 620px;float: left; }
+		    .left-column a { color: #acc5d7; }
+			
+	footer { clear: both; font-size: .7em; color: #7390a6; padding: 10px; background-color: #071b2a; border: 1px solid #0d273a; margin-bottom: 10px;}
+	footer a { color: #acc5d7; }
+	
+
+.color1 { background-color: #4db1b7; }
+.color2 { background-color: #d85137; }
+.color3 { background-color: #dd8e17; }
+.color4 { background-color: #595abb; }
+.color5 { background-color: #83a42c; }
+.color6 { background-color: #506d87; }
+.color7 { background-color: #260930; }
+.color8 { background-color: #034786; }
+.color9 { background-color: #631355; }
+
+.hover1:hover { background-color: #4db1b7; }
+.hover2:hover { background-color: #d85137; }
+.hover3:hover { background-color: #dd8e17; }
+.hover4:hover { background-color: #595abb; }
+.hover5:hover { background-color: #83a42c; }
+.hover6:hover { background-color: #506d87; }
+.hover7:hover { background-color: #260930; }
+.hover8:hover { background-color: #034786; }
+.hover9:hover { background-color: #631355; }
