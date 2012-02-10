@@ -2,6 +2,8 @@
     // Add the CSS
     Script.Require("ShapesBase");
     Script.Require("jQuery");
+    Script.Include("tweetrotator-min.js");
+    Script.Include("tweetrotator.init.js");
     Style.Include("style.css");
    
     // Get image path for images
@@ -20,6 +22,10 @@
 	<header>
 		<div class="header-left">
             @Display(Model.Header)
+            <div class="header-twitter-container">
+                <div class="header-twitter-icon"><a href="http://twitter.com/techbash" target="_blank"><img style="border: 0px currentColor;" alt="Twitter" src="/OrchardLocal/Media/Default/img/icons/twitter.png" /></a></div>
+                <div class="header-twitter-tweets" id="techbashTweets"></div>
+            </div>
 		</div>
 		<nav class="header-right">
             @Display(Model.BeforeMain)
