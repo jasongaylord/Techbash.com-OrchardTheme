@@ -4,11 +4,15 @@
     Script.Require("jQuery");
     Script.Include("tweetrotator-min.js");
     Script.Include("tweetrotator.init.js");
+    Script.Include("http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js");
+    Script.Include("http://maps.googleapis.com/maps/api/js?sensor=false");
+    Script.Include("techbash.geolocation.js");
+    
     Style.Include("style.css");
-   
+
     // Get image path for images
     var imgPath = Url.Content("~/Themes/TECHbash2012/Content/img/");
-    
+
     // Add user sign-in to footer
     //WorkContext.Layout.Head.Add(New.RssLink());
     WorkContext.Layout.Footer.Add(New.User(), "10");

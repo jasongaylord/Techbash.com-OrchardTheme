@@ -17,9 +17,10 @@ legend { color: #fff; padding-left: 3px; padding-right: 3px; }
 			.block { width: 90px; height: 90px; float: right; margin: 10px 0px 0px 10px; }
 			.block-on { width: 90px; height: 90px; float: right; margin: 10px 0px 0px 10px; padding: 0px 0 0px 0; cursor: pointer; background-color: #506d87; text-align: center; font-size: 0.8em; }
 			.block-on a { border: 0px; text-decoration: none; color: white; }
+			.travelStats { width: 100px;height: 20px;left: 896px;top: 135px;position: absolute;}
 
 	.frame-body { clear: both; margin-bottom: 30px; }
-		.right-column { width: 310px; float: right; margin-top: 20px; }
+		.right-column { width: 310px; float: right; margin-top: 60px; }
 			.right-column .heading { height: 30px; font-weight: normal; padding: 5px;background-color: #034786; } /* #06565b; 10979f */
 			.right-column img { float: left; }
 			.right-column .header { float: left; padding: 5px; }
@@ -30,10 +31,24 @@ legend { color: #fff; padding-left: 3px; padding-right: 3px; }
 			.left-column .metadata { display: none; }
 			.left-column ul { font-size: .9em; }
 			.left-column p { font-size: .9em; line-height: 140%; }
+
+            .blog ul { list-style: none; margin: 0px; padding: 0px; }
+            .blog-post { margin-bottom: 20px; }
+            .blog-post .published { display: inline; font-size: 0.9em; color: #666666; }
+            .blog-post .commentcount { display: inline; font-size: 0.9em; color: #666666; }
+            .blog-post .inlineDivider { font-size: 0.9em; color: #666666; margin: 0 6px 0 6px; }
+            .blog-post-continuation a { font-size: 0.85em; font-weight: bold; text-transform: lowercase; }
+            .widget-recent-blog-posts ul { list-style: none; margin: 0px; padding: 0px; }
+            .comment-form ol { list-style: none; margin: 0; padding: 0; }
 			
 			.hotel { font-size: .9em; float: left;width: 300px; margin: 0 0 10px 0; }
 			
-	footer { clear: both; font-size: .7em; color: #7390a6; padding: 10px; background-color: #071b2a; border: 1px solid #0d273a; margin-bottom: 10px;}
+            .download-type { clear: both; }
+            .download-sample { border: 1px solid #0d273a; width: 124px; float: left; margin: 0 0 20px 0; }
+            .download-sample img { padding: 2px; }
+            .download-values { float: left; margin: 0 0 0 20px; width: 450px; font-size: .9em; }
+			
+	footer { clear: both; font-size: .7em; color: #7390a6; padding: 5px 10px 5px 10px; background-color: #071b2a; border: 1px solid #0d273a; margin-bottom: 10px;}
 	footer a { color: #acc5d7; }
 	
 
