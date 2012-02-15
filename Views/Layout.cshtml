@@ -7,27 +7,22 @@
     Script.Include("http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js");
     Script.Include("http://maps.googleapis.com/maps/api/js?sensor=false");
     Script.Include("techbash.geolocation.js");
+    Script.Include("http://s1.lqcdn.com/m.min.js?dt=2.3.110104.1");
     
     Style.Include("style.css");
 
-    // Get image path for images
-    var imgPath = Url.Content("~/Themes/TECHbash2012/Content/img/");
-
     // Add user sign-in to footer
-    //WorkContext.Layout.Head.Add(New.RssLink());
     WorkContext.Layout.Footer.Add(New.User(), "10");
 }
 
-<div class="event-announcement">
-    @Display(Model.Featured)
-</div>
+<div class="event-announcement">@Display(Model.Featured)</div>
 		
 <div class="frame">
 	<header>
 		<div class="header-left">
             @Display(Model.Header)
             <div class="header-twitter-container">
-                <div class="header-twitter-icon"><a href="http://twitter.com/techbash" target="_blank"><img style="border: 0px currentColor;" alt="Twitter" src="/OrchardLocal/Media/Default/img/icons/twitter.png" /></a></div>
+                <div class="header-twitter-icon"><a href="http://twitter.com/techbash" target="_blank"><img style="border: 0px;" alt="Twitter" src="/Media/Default/img/icons/twitter.png" /></a></div>
                 <div class="header-twitter-tweets" id="techbashTweets"></div>
             </div>
 		</div>
@@ -38,18 +33,13 @@
 		
 	<div class="frame-body">
         <section class="left-column">
-            @Display(Model.Content)            
+            @Display(Model.Content)   
+            <div style="clear:both; text-align: center; margin: 20px 0 20px 0;"><img src="/Media/Default/Downloads/lightbannerad-468x60.png" alt="TECHbash 2012" style="border: 0px;"/></div>
         </section>
         <section class="right-column">
             @Display(Model.AsideSecond)
         </section>
     </div>
 		
-    <footer>
-        @Display(Model.Footer)
-    </footer>
+    <footer><div class="frame-footer">@Display(Model.Footer)</div></footer>
 </div>
-<!--
-                        <a href="http://lakequincy.com?90" style="text-align:right;font-size:8px;display:block;color:#000;text-decoration:none;font-family:Sans-Serif;margin:0;padding:0;">Ads by Lake Quincy Media</a>
-
-<script type='text/javascript' language='Javascript' src='http://s1.lqcdn.com/m.min.js?dt=2.3.110104.1'></script>-->
